@@ -1,0 +1,301 @@
+@import url(font-family: 'gotham-book', sans-serif);
+
+body {
+    font-family: 'gotham-book', sans-serif;
+    color: white;
+    line-height: 200%;
+    text-rendering: geometricPrecision;
+    overflow: scroll;
+    background-color: black;
+}
+
+nav {
+    background-image: url(../Images/engineeringgear.svg);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.options-block {
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    height: 60%;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px, 5px, 10px, black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.flexwork-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 10%;
+}
+
+.flexabout-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 10%;
+    white-space: nowrap;
+}
+
+.flexcontac-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 10%;
+}
+
+.flexnavbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.first-txt {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.name {
+    font-size: 32px;
+}
+
+.second-linetxt {
+    font-size: 24px;
+}
+
+.second-paragraph {
+    font-size: 22px;
+}
+
+.third-paragraph {
+    font-size: 22px;
+}
+
+.fourth-paragraph {
+    font-size: 22px;
+}
+
+.image-experience {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.relevant-txt {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.subtitle-txt {
+    display: flex;
+    font-size: 28px;
+}
+
+.relevant-1 {
+    font-size: 22px;
+    align-items: center;
+    width: fit-content;
+    gap: 15%;
+    white-space: nowrap;
+}
+
+.investigation-block {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5%;
+}
+
+.exp1-block {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp2-block {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.relevant-list2 {
+    font-size: 22px;
+    align-items: center;
+    width: fit-content;
+    gap: 15%;
+    white-space: nowrap;
+}
+
+.user-block {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.pictures-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tuned-msg {
+    font-size: 28px;
+    text-align: center;
+}
+
+.Eng-Back {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+}
+
+.experience-jobs {
+    display: flex;
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+.prolec-block {
+    display: flex;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 10px, black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.tfs-block {
+    display: flex;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 10px, black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.gm-block {
+    display: flex;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 10px, black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.jd-block {
+    display: flex;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 10px, black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.background-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.me-txt {
+    font-size: 32px;
+}
+
+.about-block {
+    font-size: 22px;
+}
+
+.skills-txt {
+    font-size: 24px;
+    display: flex;
+}
+
+.skills-list {
+    font-size: 22px;
+}
+
+.mail-2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 2%;
+}
+
+.linkedin-2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 2%;
+}
+
+.Skills-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
